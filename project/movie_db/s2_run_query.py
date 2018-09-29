@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 
+"""
+.. note::
+
+    session + text sql doesn't work.
+"""
+
 from sqlalchemy import text
-from sqlalchemy.orm import sessionmaker
 from sqlalchemy_mate import engine_creator
 
 from learn_datasette.datamodel import Movie

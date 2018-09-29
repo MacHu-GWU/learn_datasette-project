@@ -1,0 +1,11 @@
+{
+    "databases": {
+        "movie": {
+            "tables": {
+                "movie": {
+                    "label_column": "title"
+                }
+            }
+        }
+    }
+}
